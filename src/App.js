@@ -30,8 +30,6 @@ function App() {
 
     const filteredRepositories = repositories.filter(repositorie => repositorie.id !== id);
 
-    console.log(filteredRepositories);
-
     setRepositories(filteredRepositories);
 
   }
